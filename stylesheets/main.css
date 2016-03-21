@@ -51,5 +51,5 @@ p {
   font-size: 24px;
 }
 p {
-  background: hsl(0, 100%, 25%);
+  background: hsl(0, 100%, 25%, .25);
 }
