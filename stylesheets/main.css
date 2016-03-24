@@ -47,7 +47,7 @@ table {
 }
 
 /* Reusable column and container grid layout */
-
+*,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
