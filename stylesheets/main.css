@@ -219,7 +219,10 @@ a {
 .primary-footer {
   padding-bottom: 44px;
   padding-top: 44px;
+  color: #648880;
+  font-size: 14px;
 }
 .primary-footer small {
   float: left;
+  font-weight: 400;
 }
