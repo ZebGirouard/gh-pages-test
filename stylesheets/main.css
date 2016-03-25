@@ -64,6 +64,11 @@ body {
 .tagline {
   margin: 66px 0 22px 0;
 }
+
+.teaser a:hover h3 {
+  color: #a9b2b9;
+}
+
 /* Reusable column and container grid layout */
 *,
 *:before,
