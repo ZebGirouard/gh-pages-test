@@ -56,13 +56,6 @@ body {
   font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.primary-nav {
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: .5px;
-  text-transform: uppercase;
-}
-
 .tagline {
   margin: 66px 0 22px 0;
   text-align: right;
@@ -70,6 +63,23 @@ body {
 
 .teaser a:hover h3 {
   color: #a9b2b9;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  text-align: right;
+}
+
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
 /* Reusable column and container grid layout */
