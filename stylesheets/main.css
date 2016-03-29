@@ -195,6 +195,11 @@ p a {
   border-radius: 5px;
   display: inline-block;
   margin: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
 
 .btn-alt {
@@ -209,6 +214,7 @@ p a {
 */
 
 .hero {
+  color: #fff;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
