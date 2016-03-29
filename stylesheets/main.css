@@ -281,3 +281,15 @@ p a {
   float: left;
   font-weight: 400;
 }
+
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+
+.row {
+  background: #fff;
+  min-width: 960px;
+  padding: 66px 0 44px 0;
+}
