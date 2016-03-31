@@ -338,7 +338,7 @@ p a {
 
 /*
   ========================================
-  Jokes
+  Jokes and jokes and jokes
   ========================================
 */
   
@@ -348,6 +348,13 @@ p a {
   margin-top: 88px;
   padding: 22px 0;
   text-align: center;
+}
+
+.joke-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
 }
 
 .joke {
