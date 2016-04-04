@@ -360,3 +360,14 @@ p a {
 .joke {
   margin-bottom: 44px;
 }
+
+/*
+  ========================================
+  Register
+  ========================================
+*/
+
+.why-attend {
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
