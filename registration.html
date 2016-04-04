@@ -21,40 +21,58 @@
           </ul>
         </nav>
       </header>
-      <section class="hero container">
-        <h2>Welcome to <strong>The Jungle</strong>, we have both <b><a href="fun.html">fun</a> and <a href="fun.html">games</a></b> available.</h2>
-        <p>Brought to you by Contra Industries, hitting up-up-down-down-left-right-left-right-B-A-select-start since 1987.</p>
-        <b><a class="btn btn-alt" href="fun.html">Look at this button!</a>
+      <section class="row-alt">
+        <div class="lead container">
+          <h1>Registration</h1>
+          <p> OMG, Registration!</p>
+        </div>
       </section>
       <section class="row">
         <div class="grid">
-          <!-- Fun -->
-          <section class="teaser col-1-3">
-            <h5>Fun</h5>
-            <a href="fun.html">
-              <img src="images/fun.gif" alt="F is for friends...">
-              <h3>Not the band, though.</h3>
-            </a>
-            <p>Sun, pun, shun, ton, these are but a few words that rhyme with fun.</p>
+          <!-- Pitch -->
+          <section class="col-2-3">
+            <h2>Purchase a Conference Pass</h2>
+            <h5>$99 per Pass</h5>
+          
+            <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we&#8217;ll follow up and provide a receipt for your purchase. See you soon!</p>
+          
+            <h4>Why Attend?</h4>
+          
+            <ul class="why-attend">
+            <li>Over twenty world-class speakers</li>
+              <li>One full day of workshops and two full days of presentations</li>
+              <li>Hosted at The Chicago Theatre, a historical landmark</li>
+              <li>August in Chicago is simply amazing</li>
+            </ul>
           </section><!--
-            Games
-          --><section class="teaser col-1-3">
-            <h5>Games</h5>
-            <a href="games.html">
-              <img src="images/games.jpg" alt="Juegos">
-              <h3>"Games!" -Homestar Runner</h3>
-            </a>
-            <p>Shames, frames, Ving Rhames, I think you get the idea.</p>
-          </section><!--
-          Details
-          --><section class="teaser col-1-3">
-            <div class="details">
-              <h5>Details</h5>
-              <h3>The devil is in them....</h3>
-              <p>If you would like to hear about these <i>fine offerings</i>, please send a letter to <em>Stick Stickly</em>, PO Box 963, New York, NY 10108.</p>
-              <p>If you would rather hear about the perils of parenthood, check out <span class="tooltip"><a href="https://louisck.net/" target="_blank">Louis C.K.</a></span></p>
-            </div>
-          </section>
+            Register
+          --><form class="col-1-3" action="#" method="post">
+            <fieldset class="register-group">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Full name" required>
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="Email address" required>
+              </label>
+              <label>
+                Number of Passes
+                <select name="quantity" required>
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </label>
+              <label>
+                Comments
+                <textarea name="comments"></textarea>
+              </label>
+            </fieldset>
+            <input class="btn btn-default" type="submit" name="submit" value="Purchase">
+          </form>
         </div>
       </section>
       <!-- article, section, and aside...empty for now -->
